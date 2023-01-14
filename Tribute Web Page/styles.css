@@ -1,7 +1,29 @@
 h1 {
     color: red;
   }
-  .tributeInformation{
-    display: flex;
+  body{
+    height: 125vh;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 80px;
+  }
+  .navBar{
+    background-color: #F5F5F5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+  }
+  .tributeInformation img{
+    width: auto;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid white;
     
+    max-width: 100%;
+    height: auto;
+  }
+.backgroundImage {
+    background-color: #F5F5F5;
   }
